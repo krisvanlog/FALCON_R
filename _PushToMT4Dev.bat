@@ -7,7 +7,7 @@ setlocal enabledelayedexpansion
 :: Source Directory where Version Control Repository is located
 set SOURCE_DIR="C:\Users\Kris\Documents\GitHub\LazyTrade\FALCON_R"
 :: Destination Directory where Expert Advisor is located
-set DEST_DIR="C:\Program Files (x86)\MetaTrader - AxiTrader - Term2\MQL4\Experts\FALCON_R"
+set DEST_DIR="C:\Program Files (x86)\MT4_Terminal_1\MQL4\Experts\01_FALCON_R"
 
 ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
 
